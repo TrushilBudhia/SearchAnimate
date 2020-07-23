@@ -1,0 +1,28 @@
+.search-flicker {
+    -webkit-animation: animation-flicker 1s linear infinite;
+    animation: animation-flicker 1s linear infinite;
+}
+
+@-webkit-keyframes animation-flicker {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes animation-flicker {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
