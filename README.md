@@ -1,0 +1,2 @@
+# SearchAnimate
+Javascript autotyper
